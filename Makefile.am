@@ -1,2 +1,4 @@
-bin_PROGRAMS = tut_prog			
-tut_prog_SOURCES = src/main.c
+AUTOMAKE_OPTIONS = foreign
+bin_PROGRAMS = helloworld
+helloworld_SOURCES = src/main.c
+

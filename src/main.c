@@ -2,7 +2,7 @@
 #include <libtest.h>
 
 int main(int argc, char* argv[]) {
-    hello_world();
+    helloworld();
     return 0;
 }
 

@@ -100,7 +100,7 @@ am__installdirs = "$(DESTDIR)$(bindir)"
 PROGRAMS = $(bin_PROGRAMS)
 am_helloworld_OBJECTS = main.$(OBJEXT)
 helloworld_OBJECTS = $(am_helloworld_OBJECTS)
-helloworld_LDADD = $(LDADD)
+helloworld_DEPENDENCIES =
 AM_V_P = $(am__v_P_@AM_V@)
 am__v_P_ = $(am__v_P_@AM_DEFAULT_V@)
 am__v_P_0 = false
@@ -244,6 +244,7 @@ top_build_prefix = @top_build_prefix@
 top_builddir = @top_builddir@
 top_srcdir = @top_srcdir@
 helloworld_SOURCES = main.c
+helloworld_LDADD = -ltest
 all: all-am
 
 .SUFFIXES:

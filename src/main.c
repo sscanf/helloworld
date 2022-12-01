@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <libtest.h>
 
 int main(int argc, char* argv[]) {
-    printf("Hello World\n");
+    hello_world();
     return 0;
 }
 
